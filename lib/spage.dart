@@ -188,6 +188,7 @@ class _spageState extends State<spage> {
                               child: Text("Share"),
                             ),
                             onTap: () {
+                              //share image
                               _capturePng().then((imgbyte) {
                                 var now = new DateTime.now();
                                 var formatter = DateFormat('ddmmyy');
